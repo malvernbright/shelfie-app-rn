@@ -17,10 +17,13 @@ export default Home = () => {
       <ThemedText>Reading List App</ThemedText>
       <Spacer />
       <ThemedText>
-        <Link style={[styles.title, styles.link, { paddingBottom: '5px' }]} href="/about">About</Link>
+        <Link style={[styles.title, styles.link, { paddingBottom: '5px' }]} href="/login">Login</Link>
       </ThemedText>
       <ThemedText>
-        <Link style={[styles.title, styles.link, { paddingBottom: '5px' }]} href="/contact">Contact</Link>
+        <Link style={[styles.title, styles.link, { paddingBottom: '5px' }]} href="/register">Register</Link>
+      </ThemedText>
+      <ThemedText>
+        <Link style={[styles.title, styles.link, { paddingBottom: '5px' }]} href="/profile">Profile</Link>
       </ThemedText>
     </ThemedView>
   )
